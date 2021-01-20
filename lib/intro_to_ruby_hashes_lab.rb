@@ -10,6 +10,7 @@ def update_counting_hash(hash, key)
   if hash[key] = nil do
     hash[key] = 1 
   end
+  end
   else hash[key] += 1
   end
 end
